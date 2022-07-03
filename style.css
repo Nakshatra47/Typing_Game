@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+
+}
+
+header::before {
+    background: url(./circles.jpg) no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+.navigation {
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
+    display: flex;
+}
+
+li {
+    list-style: none;
+    padding: 20px 23px;
+}
+
+section {
+    height: 344px;
+    font-family: 'Bree Serif', serif;
+    margin: 3px 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+p {
+    text-align: center;
+}
+.banner{
+    background: url(./texture.jpg) no-repeat center center/cover;
+    color: white;
+    margin-top: 200px;
+    padding: 65px;
+    text-align: center;
+    border-radius: 15px;
+    border-color: bisque;
+    filter: drop-shadow(100px white);
+}
+
+.nb{
+   position: fixed; 
+   top: 0;
+   width: 100%;
+   font-weight: bolder;
+   background-color: dodgerblue;
+   color: black;
+  
+   padding-left: 30px;
+   
+}
+.txt{
+    font-weight: bolder;
+    display: block;
+    /* background-color: blue; */
+    color: white;
+    border-radius: 10px;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 25px;
+    
+}
+.txt1{
+    font-weight: bolder;
+    text-align: center;
+    
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+.txt1:hover{
+    background-color: black;
+    color: white;
+    border-width: 3px;
+    border-color: white;
+}
+#pnx{
+    opacity: 0.5;
+    filter: drop-shadow();
+}
+    
