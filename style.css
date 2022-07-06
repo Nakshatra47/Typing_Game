@@ -94,6 +94,10 @@ p {
     color: rgb(0, 0, 0);
     border-radius: 10px;
 }
+ option{
+    font-size: 21px;
+    
+}
 .txt1:hover{
     background-color: black;
     color: white;
