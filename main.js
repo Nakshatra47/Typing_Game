@@ -108,7 +108,7 @@ const words = [
 
  function matchWords() {
     
-    if (wordInput.value.toLowerCase() === words[idx]) {
+    if (wordInput.value.toLowerCase().trim() === words[idx]) {
       message.innerHTML = 'Correct!!!';
       const col =document.querySelector(".msg")
        col.style.color = "green";
