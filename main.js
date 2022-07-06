@@ -63,6 +63,7 @@ const words = [
     wordInput.addEventListener('keypress', function (e) {
       if (e.key === 'Enter' && isPlaying===false ) {
         scoreDisplay.innerHTML = score;
+           wordInput.value = '';
         isPlaying = true;
         message.innerHTML = '';
       time = currentLevel + 1;
@@ -80,7 +81,7 @@ const words = [
  
  function startMatch() {
   
-    if (matchWords()) {
+    if (matchWords() && isPlaying) {
       isPlaying = true;
       time = currentLevel + 1;
       showWord(words);
